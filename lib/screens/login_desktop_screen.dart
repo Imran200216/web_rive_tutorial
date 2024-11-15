@@ -70,6 +70,8 @@ class _LoginDesktopScreenState extends State<LoginDesktopScreen> {
         margin: const EdgeInsets.only(
           left: 30,
           right: 30,
+          top: 30,
+          bottom: 30,
         ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -119,7 +121,6 @@ class _LoginDesktopScreenState extends State<LoginDesktopScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Your content here...
                   Text(
                     textAlign: TextAlign.start,
                     "Create an account",
